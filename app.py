@@ -116,27 +116,29 @@ h1, h2, h3, h4, h5, h6 {
 .section-title { font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 10px; }
 
 /* 2. Job Description Text Area Card (FIXED BORDER BLEED) */
-div[data-testid="stTextArea"] div[data-baseweb="textarea"] {
+div[data-testid="stTextArea"] textarea {
     border-radius: 14px !important;
     background-color: var(--bg-card) !important;
     border: 1px solid var(--border-light) !important;
     box-shadow: 0 4px 12px rgba(41, 35, 31, 0.03) !important;
-    overflow: hidden;
-}
-div[data-testid="stTextArea"] div[data-baseweb="textarea"]:focus-within {
-    border-color: var(--accent-primary) !important;
-    box-shadow: 0 0 0 1px var(--accent-primary) !important;
-}
-div[data-testid="stTextArea"] textarea {
-    background-color: transparent !important;
     color: var(--text-main) !important;
     padding: 1rem !important;
     font-size: 14.5px !important;
     line-height: 1.5 !important;
-    border: none !important;
-    box-shadow: none !important;
+    outline: none !important;
 }
 
+div[data-testid="stTextArea"] textarea:focus {
+    border-color: var(--accent-primary) !important;
+    box-shadow: 0 0 0 1px var(--accent-primary) !important;
+}
+
+/* Force any outer Streamlit wrappers to remain invisible */
+div[data-testid="stTextArea"] > div {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
 /* 3. Resumes File Uploader Card */
 [data-testid="stFileUploaderDropzone"] {
     background-color: var(--bg-card) !important;
