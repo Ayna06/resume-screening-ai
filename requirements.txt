@@ -1,0 +1,6 @@
+streamlit==1.42.0
+pandas
+pdfplumber
+sentence-transformers
+scikit-learn
+google-genai

@@ -1,0 +1,14 @@
+Casey Morgan
+Frontend Developer
+
+Summary:
+Frontend-focused developer with 4 years of experience building user interfaces.
+
+Experience:
+Frontend Developer, WebStudio (2020-Present)
+- Built responsive UIs using React and TypeScript
+- Styled components with CSS and Tailwind
+- Collaborated with backend team on API integration
+- Used Git and participated in Agile ceremonies
+
+Skills: JavaScript, TypeScript, React, HTML, CSS, Git, Agile, Communication, Leadership

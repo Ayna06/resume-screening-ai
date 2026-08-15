@@ -1,0 +1,14 @@
+Sam Rivera
+Software Developer
+
+Summary:
+Software developer with 2 years of experience, primarily in Python scripting and data work.
+
+Experience:
+Junior Developer, DataWorks Inc. (2022-Present)
+- Wrote Python scripts for data cleaning and ETL pipelines using Pandas and NumPy
+- Built small internal dashboards using Flask
+- Used Git for version control
+- Some exposure to PostgreSQL for reporting queries
+
+Skills: Python, Flask, Pandas, NumPy, SQL, Git, Excel, Data Analysis
